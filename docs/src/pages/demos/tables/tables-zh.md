@@ -18,7 +18,7 @@ components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination
 
 如果用户需要选择或操作数据, 则每一行应包含有复选框。
 
-For accessibility, the first column is set to be a `<th>` element, with a `scope` of `"row"`. This enables screen readers to identify a cell's value by it's row and column name.
+出于可访问性考虑, 表格第一列设置为 `<th>` 元素, 其 `scope` 属性指定为 `"row"`。 This enables screen readers to identify a cell's value by it's row and column name.
 
 ## 简单表格
 
