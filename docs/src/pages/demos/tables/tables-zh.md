@@ -18,17 +18,17 @@ components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination
 
 如果用户需要选择或操作数据, 则每一行应包含有复选框。
 
-出于可访问性考虑, 表格第一列设置为 `<th>` 元素, 其 `scope` 属性指定为 `"row"`。 This enables screen readers to identify a cell's value by it's row and column name.
+出于可访问性考虑, 表格第一列设置为 `<th>` 元素, 其 `scope` 属性指定为 `"row"`。 这样，屏幕阅读器就可以通过行和列的名字标识某个单元格的值。
 
 ## 简单表格
 
-A simple example with no frills.
+一个简单例子
 
 {{"demo": "pages/demos/tables/SimpleTable.js"}}
 
 ## 排序&筛选
 
-This example demonstrates the use of `Checkbox` and clickable rows for selection, with a custom `Toolbar`. It uses the `TableSortLabel` component to help style column headings.
+此示例演示了 `复选框` 和单击选择行的用法, 该表格具有自定义的 `Toolbar`。 该示例使用 `TableSortLabel` 组件来辅助实现列标题的样式效果。
 
 The Table has been given a fixed width to demonstrate horizontal scrolling. In order to prevent the pagination controls from scrolling, the TablePagination component is used outside of the Table. (The ['Custom Table Pagination Action' example](#custom-table-pagination-action) below shows the pagination within the TableFooter.)
 
