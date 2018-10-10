@@ -6,17 +6,17 @@ components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination
 
 <p class="description">表格用于展示数据集。表格可以被充分定制化。</p>
 
-[数据表格](https://material.io/design/components/data-tables.html) They can be embedded in primary content, such as cards.
+[数据表格](https://material.io/design/components/data-tables.html)以一种一目了然地方式显示信息，这便于用户发现某些模式和要义。 表格可以被内嵌在主要内容中，如卡片。
 
-Data tables can include: - A corresponding visualization - Navigation - Tools to query and manipulate data
+数据表可以包括: -对应的数据可视化展现 -导航 -用于查询和操作数据的工具
 
-When including tools, they should be placed directly above or below the table.
+在包含工具时, 应将它们直接放在表格的上方或下方。
 
 ## 结构
 
-A data table contains a header row at the top that lists column names, followed by rows for data.
+数据表的顶部是标题行，给出各列的名称，后续的各行是表格数据。
 
-Checkboxes should accompany each row if the user needs to select or manipulate data.
+如果用户需要选择或操作数据, 则每一行应包含有复选框。
 
 For accessibility, the first column is set to be a `<th>` element, with a `scope` of `"row"`. This enables screen readers to identify a cell's value by it's row and column name.
 
