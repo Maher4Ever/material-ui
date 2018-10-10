@@ -4,7 +4,7 @@ components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination
 ---
 # 表格
 
-<p class="description">表格用于展示数据集。表格能够很好的进行自定义开发。</p>
+<p class="description">表格用于展示数据集。表格可以被充分定制化。</p>
 
 [数据表格](https://material.io/design/components/data-tables.html) They can be embedded in primary content, such as cards.
 
