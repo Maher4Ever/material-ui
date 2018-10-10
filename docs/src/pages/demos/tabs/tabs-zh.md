@@ -10,7 +10,7 @@ components: Tabs, Tab
 
 ## Simple Tabs
 
-A simple example with no frills.
+一个简单例子
 
 {{"demo": "pages/demos/tabs/SimpleTabs.js"}}
 
