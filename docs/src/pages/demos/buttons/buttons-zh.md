@@ -19,7 +19,7 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 {{"演示": "pages/demos/buttons/TextButtons.js"}}
 
-## 轮廓按钮
+## 描边按钮
 
 [描边按钮](https://material.io/design/components/buttons.html#outlined-button) 是中等强调按钮。 它们包含重要的操作， 但不是应用程序中的主要操作。
 
