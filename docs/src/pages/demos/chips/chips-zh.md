@@ -19,9 +19,9 @@ components: 纸片
 
 {{"demo": "pages/demos/chips/Chips.js"}}
 
-### 轮廓纸片
+### 描边纸片
 
-轮廓纸片提供了另一种风格。
+描边纸片提供了另一种风格。
 
 {{"demo": "pages/demos/chips/OutlinedChips.js"}}
 
