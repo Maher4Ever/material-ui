@@ -1,10 +1,10 @@
-# Color
+# 颜色
 
-<p class="description">Convey meaning through color. Out of the box you get access to all colors in the Material Design spec.</p>
+<p class="description">通过颜色传达意义。 Out of the box you get access to all colors in the Material Design spec.</p>
 
 [Color](https://material.io/design/color/) in material design is inspired by bold hues juxtaposed with muted environments, deep shadows, and bright highlights.
 
-## Color system
+## 颜色系统
 
 The Material Design color system can be used to create a color theme that reflects your brand or style.
 
