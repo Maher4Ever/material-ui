@@ -63,7 +63,7 @@ components: 对话框、对话框标题、对话框内容、对话框内容文�
 
 ## 无障碍功能
 
-一定要添加 `aria-labelledby="id..."`，来对` Dialog `引用模态框标题。 此外, 您还可以使用`对话框`的属性`aria-describedby="id..."`来描述您的模态对话框。
+一定要添加 `aria-labelledby="id..."`，来给` Dialog `引用模态框标题。 此外, 您还可以使用`对话框`的属性`aria-describedby="id..."`来描述您的模态对话框。
 
 ## 长内容滚动
 
