@@ -25,12 +25,12 @@ components: 纸片
 
 {{"demo": "pages/demos/chips/OutlinedChips.js"}}
 
-## 纸片区块
+## 纸片演练
 
 {{"demo": "pages/demos/chips/ChipsPlayground.js"}}
 
 ## 纸片组
 
-下面是一个通过组呈现多个纸片的示例。 删除纸片会将其从纸片组的队列中删除。 请注意，因为没有定义`onClick` 属性，所以这些纸片在被点击或触碰时可以获取焦点，但无法获取深度。
+下面是一个通过数组呈现多个纸片的示例。 删除纸片会将其从纸片组的队列中删除。 请注意，因为没有定义`onClick` 属性，所以这些纸片在被点击或触碰时可以获取焦点，但没有立体和阴影变化。
 
 {{"demo": "pages/demos/chips/ChipsArray.js"}}
