@@ -16,7 +16,7 @@ Material Design 颜色系统可用于创建反映您的品牌或风格的颜色�
 
 #### "Hue" & "Shade"
 
-A single color within the palette is made up of a hue such as "red", and shade, such as "500". "red 50" is the lightest shade of red (*pink!*), while "red 900" is the darkest. In addition, most hues come with "accent" shades, prefixed with an `A`.
+调色板中的单一颜色由色相如 "red" 和阴影如 "500"组成。 "rad 50" 是红色的最浅的阴影 (* 粉红色! *), 而 "red 900" 是最暗的。 此外, 大多数色调都带有 "accent" 色调, 以 ` A ` 为前缀。
 
 ### Examples
 
