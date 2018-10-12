@@ -1,18 +1,18 @@
 # 颜色
 
-<p class="description">通过颜色传达意义。 Out of the box you get access to all colors in the Material Design spec.</p>
+<p class="description">通过颜色传达意义。 开箱即用，您可以访问Material Design规范中的所有颜色。</p>
 
-[Color](https://material.io/design/color/) in material design is inspired by bold hues juxtaposed with muted environments, deep shadows, and bright highlights.
+material design中的 [ 颜色 ](https://material.io/design/color/) 灵感源自与静音环境、深阴影和明亮亮点并列的粗色调。
 
 ## 颜色系统
 
-The Material Design color system can be used to create a color theme that reflects your brand or style.
+Material Design 颜色系统可用于创建反映您的品牌或风格的颜色主题。
 
 ### Important Terms
 
 #### "Palette"
 
-A palette is a collection of colors, i.e. hues and their shades. Material-UI provides all colors from the Material Design guidelines.
+调色板是颜色的集合, 即色调和它们的阴影. Material-UI 提供Material Design 指南中的所有颜色.
 
 #### "Hue" & "Shade"
 
