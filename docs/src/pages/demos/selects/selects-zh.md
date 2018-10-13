@@ -2,7 +2,7 @@
 title: React 下拉选择器组件
 components: 下拉选择器，原生的选择器
 ---
-# 下拉选择器
+# 选择器
 
 <p class="description">下拉选择器组件用于从选项列表中去获得用户所提供的信息。</p>
 
@@ -24,13 +24,13 @@ components: 下拉选择器，原生的选择器
 
 与单项选择一样，您可以通过访问` onChange `属性中的回调` event.target.value `来提取新值。它总是一个数组。
 
-{{"demo": "pages/demos/selects/MultipleSelect.js"}}
+{{"演示": "pages/demos/selects/MultipleSelect.js"}}
 
-## With a Dialog
+## 与对话框组件使用
 
-While it's discouraged by the Material Design specification, you can use a select inside a dialog.
+虽然Material Design的规范不鼓励，但您可以在对话框中使用选择。
 
-{{"demo": "pages/demos/selects/DialogSelect.js"}}
+{{"演示": "pages/demos/selects/DialogSelect.js"}}
 
 ## Text Fields
 
