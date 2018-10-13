@@ -58,17 +58,17 @@ components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, Inp
 
 {{"demo": "pages/demos/text-fields/OutlinedInputAdornments.js"}}
 
-## Formatted inputs
+## 格式化输入
 
 You can use third-party libraries to format an input. You have to provide a custom implementation of the `<input>` element with the `inputComponent` property.
 
-The following demo uses the [react-text-mask](https://github.com/text-mask/text-mask) and [react-number-format](https://github.com/s-yadav/react-number-format) libraries.
+下面的演示使用 [react-text-mask](https://github.com/text-mask/text-mask)和 [react-number-format](https://github.com/s-yadav/react-number-format) 库。
 
 {{"demo": "pages/demos/text-fields/FormattedInputs.js"}}
 
-## Customized inputs
+## 自定义输入
 
-If you have been reading the [overrides documentation page](/customization/overrides/) but you are not confident jumping in, here's an example of how you can change the main color of an Input.
+如果您有阅读[重写文档](/customization/overrides/) 但你还不是很自信能够完全掌握， 以下是如何更改一个输入的主要颜色的示例
 
 {{"demo": "pages/demos/text-fields/CustomizedInputs.js"}}
 
