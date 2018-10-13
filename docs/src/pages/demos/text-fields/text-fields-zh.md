@@ -2,7 +2,7 @@
 title: Text Field React component
 components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, InputBase, InputLabel, OutlinedInput, TextField
 ---
-# Text Fields
+# Text Fields组件
 
 <p class="description">用户可以在文本框内输入或编辑文字</p>
 
@@ -10,7 +10,7 @@ components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, Inp
 
 ## TextField
 
-The `TextField` wrapper component is a complete form control including a label, input and help text.
+` TextField `包装器组件是一个完整的表单控件，包括标签，输入和帮助文本。
 
 {{"demo": "pages/demos/text-fields/TextFields.js"}}
 
@@ -74,23 +74,23 @@ If you have been reading the [overrides documentation page](/customization/overr
 
 ## With icon
 
-Icons can be specified as prepended or appended.
+图标可以指定为预置或追加。
 
 {{"demo": "pages/demos/text-fields/InputWithIcon.js"}}
 
 ## Limitations
 
-The input label "shrink" state isn't always correct. The input label is supposed to shrink as soon as the input is displaying something. In some circumstances, we can't determine the "shrink" state (number input, datetime input, Stripe input). You might notice an overlap.
+输入标签 "shrink" 状态并不总是正确的。 输入标签应在输入显示内容时立即收缩。 在某些情况下, 我们无法确定 "shrink" 状态 (数字输入、日期时间输入、条带输入)。 您可能会注意到重叠。
 
 ![shrink](/static/images/text-fields/shrink.png)
 
-To workaround the issue, you can force the "shrink" state of the label.
+若要解决此问题, 您可以强制标签的 "shrink" 状态。
 
 ```jsx
 <TextField InputLabelProps={{ shrink: true }} />
 ```
 
-or
+或
 
 ```jsx
 <InputLabel shrink>Count</InputLabel>
