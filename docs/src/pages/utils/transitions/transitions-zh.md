@@ -4,7 +4,7 @@ components: Collapse, Fade, Grow, Slide, Zoom
 ---
 # Transitions
 
-<p class="description">Transition helps make a UI expressive and easy to use.</p>
+<p class="description">过渡有助于使UI富有表现力且易于使用。</p>
 
 Material-UI provides a number of transitions that can be used to introduce some basic [motion](https://material.io/design/motion/) to your applications components.
 
