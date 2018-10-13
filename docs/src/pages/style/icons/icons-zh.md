@@ -13,7 +13,7 @@ Material-UI提供了两个组件来渲染系统图标：`SvgIcon` 用SVG路径�
 
 `SvgIcon` 将SVG `path` 作为子组件，将它转换为展示路径的React组件，并且可以定制图标样式和相应鼠标事件。 SVG 元素应该为一个 24x24px 的视图。
 
-The resulting icon can be used as is, or included as a child for other Material-UI components that use icons. By default, an Icon will inherit the current text color. Optionally, you can set the icon color using one of the theme color properties: `primary`, `secondary`, `action`, `error` & `disabled`.
+生成的图标可以当作另一个Material-UI组件的子组件来使用。 图标默认继承当前的文本颜色。 或者，你可以使用以下主题色之一来设置颜色属性：`primary`, `secondary`, `action`, `error` & `disabled`。
 
 {{"demo": "pages/style/icons/SvgIcons.js"}}
 
@@ -72,7 +72,7 @@ To use an icon simply wrap the icon name (font ligature) with the `Icon` compone
 <Icon>star</Icon>
 ```
 
-By default, an Icon will inherit the current text color. Optionally, you can set the icon color using one of the theme color properties: `primary`, `secondary`, `action`, `error` & `disabled`.
+图标默认继承当前的文本颜色。 或者，你可以使用以下主题色之一来设置颜色属性：`primary`, `secondary`, `action`, `error` & `disabled`。
 
 ### Font Material icons
 
