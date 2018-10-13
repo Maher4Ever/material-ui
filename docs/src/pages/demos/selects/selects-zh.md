@@ -6,7 +6,7 @@ components: 下拉选择器，原生的选择器
 
 <p class="description">下拉选择器组件用于从选项列表中去获得用户所提供的信息。</p>
 
-## 下拉选择器演示
+## 简单下拉选择器
 
 Menus are positioned over their emitting elements such that the currently selected menu item appears on top of the emitting element.
 
