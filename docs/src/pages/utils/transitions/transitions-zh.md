@@ -58,10 +58,10 @@ The Transition component's `mountOnEnter` property prevents the child component 
 
 {{"demo": "pages/utils/transitions/SimpleSlide.js"}}
 
-## Zoom
+## 放大
 
-Expand outwards from the center of the child element.
+从子元素的中心向外扩展。
 
-This example also demonstrates how to delay the enter transition.
+此示例还演示如何延迟输入过渡。
 
 {{"demo": "pages/utils/transitions/SimpleZoom.js"}}
