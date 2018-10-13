@@ -8,21 +8,21 @@ components: 下拉选择器，原生的选择器
 
 ## 简单下拉选择器
 
-Menus are positioned over their emitting elements such that the currently selected menu item appears on top of the emitting element.
+菜单位于其所点击的元素上, 使得当前选定的菜单项显示在点击元素上。
 
-{{"demo": "pages/demos/selects/SimpleSelect.js"}}
+{{"演示": "pages/demos/selects/SimpleSelect.js"}}
 
-## Native Select
+## 原生的下拉选择器
 
-As the user experience can be improved on mobile using the native select of the platform, we allow such pattern.
+由于可以使用平台的原生选择在移动设备上改进用户体验，我们允许这种模式。
 
-{{"demo": "pages/demos/selects/NativeSelects.js"}}
+{{"演示": "pages/demos/selects/NativeSelects.js"}}
 
-## Multiple Select
+## 多选
 
-The `Select` component can handle multiple selections. It's enabled with the `multiple` property.
+`Select`组件可以处理多个选择，可以使用`multiple` 属性启用
 
-Like with the single selection, you can pull out the new value by accessing `event.target.value` in the `onChange` callback. It's always an array.
+与单项选择一样，您可以通过访问` onChange `属性中的回调` event.target.value `来提取新值。它总是一个数组。
 
 {{"demo": "pages/demos/selects/MultipleSelect.js"}}
 
