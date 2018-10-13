@@ -7,11 +7,11 @@ components: Icon, SvgIcon
 
 一个[系统图标](https://material.io/design/iconography/system-icons.html)或UI图标，可以用来代表一个命令、文件、或者目录。 系统图标还常在app bar、工具栏、按钮、和列表中用来表示一些常见操作，如删除、打印、和保存。 Google在该规范下提供了一套[Material icons](https://material.io/tools/icons/?style=baseline)。
 
-Material-UI provides two components to render system icons: `SvgIcon` for rendering SVG paths, and `Icon` for rendering font icons.
+Material-UI提供了两个组件来渲染系统图标：`SvgIcon` 用SVG路径来渲染，`Icon` 用字体来渲染。
 
 ## SVG Icons
 
-The `SvgIcon` component takes an SVG `path` element as its child and converts it to a React component that displays the path, and allows the icon to be styled and respond to mouse events. SVG elements should be scaled for a 24x24px viewport.
+`SvgIcon` 将SVG `path` 作为子组件，将它转换为展示路径的React组件，并且可以定制图标样式和相应鼠标事件。 SVG 元素应该为一个 24x24px 的视图。
 
 The resulting icon can be used as is, or included as a child for other Material-UI components that use icons. By default, an Icon will inherit the current text color. Optionally, you can set the icon color using one of the theme color properties: `primary`, `secondary`, `action`, `error` & `disabled`.
 
